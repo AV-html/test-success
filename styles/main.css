@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list {
+    display: flex;
+    gap: 16px;
+
+    li {
+        list-style-type: none;
+    
+
+        a {
+            color: brown;
+            text-decoration: none;
+        }
+    }
+}
+
+.card {
+    border: 1px solid gainsboro;
+    width: 200px;
+    padding: 8px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.title {
+    margin: 0;
+}
+
+.text {
+    text-align: justify;
+}
+
+.btn {
+    background-color: brown;
+    border: none;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+}
